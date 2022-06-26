@@ -1,0 +1,21 @@
+import subprocess,os,sys,random,time,urllib2,subprocess,base64
+
+def run(cmd):                                                  
+     subprocess.call(cmd, shell=True)
+
+'''
+_____________________________________________________
+             INSTALLING SERVICES
+_____________________________________________________
+'''
+time.sleep(5)
+
+
+run("apt-get install dhcpd -y")
+run("apt-get instal ssh -y")
+run("apt-get install apache2 -y")
+run("apt-get install nfs-kernel-server -y")
+run("apt-get install bind9 bind9utils -y")
+run("apt-get install vsftpd -y")
+
+

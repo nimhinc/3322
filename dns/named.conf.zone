@@ -1,0 +1,4 @@
+zone "nosm.co.nz" {
+	type master;
+	file "/etc/bind/db.nosm.co.nz";
+};
