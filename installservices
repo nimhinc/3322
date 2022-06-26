@@ -17,5 +17,6 @@ run("apt-get install apache2 -y")
 run("apt-get install nfs-kernel-server -y")
 run("apt-get install bind9 bind9utils -y")
 run("apt-get install vsftpd -y")
+run("apt-get install postfix -y")
 
 
